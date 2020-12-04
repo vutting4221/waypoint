@@ -4,8 +4,6 @@ import SessionService from 'waypoint/services/session';
 import Transition from '@ember/routing/-private/transition';
 import { action } from '@ember/object';
 import ApiService from 'waypoint/services/api';
-import { Empty } from 'google-protobuf/google/protobuf/empty_pb';
-
 
 const ErrInvalidToken = 'invalid authentication token';
 
@@ -18,12 +16,6 @@ export default class Application extends Route {
     if (!this.session.authConfigured && !transition.to.name.startsWith('auth')) {
       this.transitionTo('auth');
     }
-  }
-
-  async model() {
-    let resp = await this.api.client.getVersionInfo(new Empty(), this.api.WithMeta());
-    let versionInfo = resp?.getInfo();
-    return versionInfo?.toObject();
   }
 
   @action
