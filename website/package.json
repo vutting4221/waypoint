@@ -27,7 +27,7 @@
     "nuka-carousel": "^4.7.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-intersection-observer": "^8.29.0",
+    "react-intersection-observer": "^8.31.0",
     "readdirp": "3.4.0",
     "semver": "^7.3.2"
   },
