@@ -17,7 +17,7 @@
     "@hashicorp/react-section-header": "^2.0.2",
     "@hashicorp/react-subnav": "6.0.0",
     "@hashicorp/react-tabs": "^0.6.1",
-    "@hashicorp/react-vertical-text-block-list": "^2.0.3",
+    "@hashicorp/react-vertical-text-block-list": "^4.0.0",
     "fs-exists-sync": "^0.1.0",
     "gray-matter": "4.0.2",
     "js-yaml": "^3.14.0",
