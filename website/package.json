@@ -20,7 +20,7 @@
     "@hashicorp/react-vertical-text-block-list": "^2.0.3",
     "fs-exists-sync": "^0.1.0",
     "gray-matter": "4.0.2",
-    "js-yaml": "^3.14.0",
+    "js-yaml": "^3.14.2",
     "line-reader": "^0.4.0",
     "next": "9.5.3",
     "next-mdx-remote": "^1.0.0",
